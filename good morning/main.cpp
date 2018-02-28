@@ -18,7 +18,7 @@ void Mexico()
 {
     for(int i=0;i<80;++i)
     {
-        cout<<"*";
+        cout<<"#";
     }
 }
 void String()
@@ -29,7 +29,7 @@ void centerstring()
 {
     int l = text.length();
     int FrontSpaces = (78 - l)/2;
-    cout<<"*";
+    cout<<"#";
     for(int i=0; i<FrontSpaces;i++)
     {
         cout<<" ";
@@ -39,18 +39,18 @@ void centerstring()
     {
         cout<<" ";
     }
-    cout<<"*";
+    cout<<"#";
 
 }
 
 void Hungary()
 {
-    cout<<"*";
+    cout<<"#";
     for(int i=0;i<78;i++)
     {
         cout<<" ";
     }
-    cout<<"*";
+    cout<<"#";
 }
 int main()
 {
