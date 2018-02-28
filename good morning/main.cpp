@@ -28,8 +28,8 @@ void String()
 void centerstring()
 {
     int l = text.length();
-    int FrontSpaces = (78 - l)/2;
-    cout<<"#";
+    int FrontSpaces = (76 - l)/2;
+    cout<<"##";
     for(int i=0; i<FrontSpaces;i++)
     {
         cout<<" ";
@@ -39,27 +39,29 @@ void centerstring()
     {
         cout<<" ";
     }
-    cout<<"#";
+    cout<<"##";
 
 }
 
 void Hungary()
 {
-    cout<<"#";
-    for(int i=0;i<78;i++)
+    cout<<"##";
+    for(int i=0;i<76;i++)
     {
         cout<<" ";
     }
-    cout<<"#";
+    cout<<"##";
 }
 int main()
 {
     GetName();
     String();
     Mexico();
+    Mexico();
     Hungary();
     centerstring();
     Hungary();
+    Mexico();
     Mexico();
     cout<<"\n\n\n"<<endl;
     return 0;
