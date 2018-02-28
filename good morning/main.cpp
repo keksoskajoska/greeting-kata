@@ -8,9 +8,13 @@ void GetName()
 {
     cin>>name;
 }
+void Cout()
+{
+    cout << "Happy Eastern, " << name << "!" << endl;
+}
 int main()
 {
     GetName();
-    cout << "Guten Morgen, " << name << "!" << endl;
+    Cout();
     return 0;
 }
